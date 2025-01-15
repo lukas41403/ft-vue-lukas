@@ -1,9 +1,0 @@
-<template>
-    <div>
-        <div>
-            <div>
-                <h1>Kategórie</h1>
-            </div>
-        </div>
-    </div>
-</template>
