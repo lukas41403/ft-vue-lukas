@@ -1,0 +1,121 @@
+[
+  {
+    "name": "Vzor 1",
+    "picture_1": "IMG_9020.jpeg",
+    "picture_2": "IMG_9021.jpeg",
+    "size": "200 cm x 70 cm",
+    "price": 300
+  },
+  {
+    "name": "Vzor 2",
+    "picture_1": "IMG_9022.jpeg",
+    "picture_2": "IMG_9023.jpeg",
+    "size": "200 cm x 90 cm",
+    "price": 300
+  },
+  {
+    "name": "Vzor 3",
+    "picture_1": "IMG_9026.jpeg",
+    "picture_2": "IMG_9029.jpeg",
+    "size": "80 cm x 80 cm",
+    "price": 150
+  },
+  {
+    "name": "Vzor 4",
+    "picture_1": "IMG_9027.jpeg",
+    "picture_2": "IMG_9030.jpeg",
+    "size": "80 cm x 80 cm",
+    "price": 150
+  },
+  {
+    "name": "Vzor 5",
+    "picture_1": "IMG_9032.jpeg",
+    "picture_2": "IMG_9033.jpeg",
+    "size": "80 cm x 80 cm",
+    "price": 150
+  },
+  {
+    "name": "Vzor 6",
+    "picture_1": "IMG_9033.jpeg",
+    "picture_2": "IMG_9034.jpeg",
+    "size": "70 cm x 70 cm",
+    "price": 130
+  },
+  {
+    "name": "Vzor 7",
+    "picture_1": "IMG_9034.jpeg",
+    "picture_2": "IMG_9036.jpeg",
+    "size": "70 cm x 70 cm",
+    "price": 130
+  },
+  {
+    "name": "Vzor 8",
+    "picture_1": "IMG_9037.jpeg",
+    "picture_2": "IMG_9038.jpeg",
+    "size": "180 cm x 45 cm",
+    "price": 280
+  },
+  {
+    "name": "Vzor 9",
+    "picture_1": "IMG_9039.jpeg",
+    "picture_2": "IMG_9040.jpeg",
+    "size": "70 cm x 70 cm",
+    "price": 130
+  },
+  {
+    "name": "Vzor 10",
+    "picture_1": "IMG_9042.jpeg",
+    "picture_2": "IMG_9045.jpeg",
+    "size": "60 cm x 60 cm",
+    "price": 120
+  },
+  {
+    "name": "Vzor 11",
+    "picture_1": "IMG_9046.jpeg",
+    "picture_2": "IMG_9048.jpeg",
+    "size": "60 cm x 60 cm",
+    "price": 120
+  },
+  {
+    "name": "Vzor 12",
+    "picture_1": "IMG_9049.jpeg",
+    "picture_2": "IMG_9050.jpeg",
+    "size": "60 cm x 60 cm",
+    "price": 120
+  },
+  {
+    "name": "Vzor 13",
+    "picture_1": "IMG_9053.jpeg",
+    "picture_2": "IMG_9055.jpeg",
+    "size": "60 cm x 60 cm",
+    "price": 120
+  },
+  {
+    "name": "Vzor 14",
+    "picture_1": "IMG_9059.jpeg",
+    "picture_2": "IMG_9060.jpeg",
+    "size": "180 cm x 45 cm",
+    "price": 280
+  },
+  {
+    "name": "Vzor 15",
+    "picture_1": "IMG_9065.jpeg",
+    "picture_2": "IMG_9066.jpeg",
+    "size": "180 cm x 90 cm",
+    "price": 280
+  },
+  {
+    "name": "Vzor 16",
+    "picture_1": "IMG_9073.jpeg",
+    "picture_2": "IMG_9074.jpeg",
+    "size": "200 cm x 50 cm",
+    "price": 300
+  },
+  {
+    "name": "Vzor 17",
+    "picture_1": "IMG_9077.jpeg",
+    "picture_2": "IMG_9078.jpeg",
+    "size": "180 cm x 70 cm",
+    "price": 300
+  }
+]
