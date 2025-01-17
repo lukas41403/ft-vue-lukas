@@ -13,6 +13,16 @@ export default {
     Hero,
     Footer,
     Cart
+  },
+  data() {
+    return{
+      isCartVisible: false,
+    };
+  },
+  methods: {
+    toggleCart(){
+      this.isCartVisible = !this.isCartVisible;
+    }
   }
 }
 </script>
@@ -20,8 +30,8 @@ export default {
 <template>
   <h1>toto je nadpis z App.vue</h1> 
   <br/> 
-  <Navbar />
-  <Cart />
+  <Navbar @toggle-cart="toggleCart" />
+  <Cart v-if="isCartVisible" @toggle-cart="toggleCart"/>
   <RouterView />
   <Footer />
 </template>
