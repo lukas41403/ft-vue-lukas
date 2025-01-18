@@ -15,12 +15,12 @@ export default {
     Cart
   },
   data() {
-    return{
+    return {
       isCartVisible: false,
     };
   },
   methods: {
-    toggleCart(){
+    toggleCart() {
       this.isCartVisible = !this.isCartVisible;
     }
   }
@@ -28,8 +28,6 @@ export default {
 </script>
 
 <template>
-  <h1>toto je nadpis z App.vue</h1> 
-  <br/> 
   <Navbar @toggle-cart="toggleCart" />
   <Cart v-if="isCartVisible" @toggle-cart="toggleCart"/>
   <RouterView />

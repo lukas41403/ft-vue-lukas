@@ -1,11 +1,11 @@
 <template>
     <div class="cart-modal">
       <div class="cart-content">
-        <button class="close-btn" @click="toggleCart">&times;</button>
+        <button class="close-btn" @click="toggleCart">x</button>
         <h2 class="text-[22px]">Košík</h2>
         <div class="cart-items">
           <div v-for="(item, index) in cartStore.cart" :key="index" class="cart-item">
-            <img class="item-image" :src="'/images_eshop/' + item.image" :alt="item.name">
+            <img class="item-image" :src="'/product_images/' + item.picture_2" :alt="item.name">
             <div class="item-details">
               <h3>{{ item.name }}</h3>
               <p>Cena: {{ item.price }}€</p>
@@ -15,7 +15,7 @@
           </div>
         </div>
         <div class="cart-footer">
-          <p class="total-amount">Spolu: {{ cartTotal }}€</p>
+          <p class="total-amount">Spolu: {{ cartTotal }} €</p>
           <div class="footer-buttons">
             <button class="clear-cart-btn" @click="cartStore.clearCart">Vyprázdniť košík</button>
             <button class="checkout-btn">Zaplatiť</button>
@@ -32,7 +32,7 @@
     data() {
       const cartStore = useCartStore();   
       return {
-        cartStore,
+        cartStore
       }
     },
     computed: {
@@ -43,6 +43,9 @@
     methods: {
       toggleCart() {
         this.$emit('toggle-cart');    
+      },
+      toggleCartEmptyStatus() {
+
       }
     }
   }
@@ -95,7 +98,7 @@
 
 .item-image {
   width: 80px;
-  height: 80px;
+  height: 100px;
   margin-right: 15px;
 }
 

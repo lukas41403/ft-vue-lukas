@@ -26,7 +26,7 @@
             <li class="flex justify-center">
               <button @click="toggleCart(); closeMenu();"
                 class="block py-2 pl-3 pr-4 text-[16px] text-navlinks rounded md:border-0 md:p-0">
-                <div class="icons"><i class="material-icons">shopping_cart</i></div>
+                <div class="icons">Nákupný košik</div>
               </button>
             </li>
           </ul>
@@ -38,12 +38,12 @@
 <script>
     export default {
         methods: {
-            toogleMenu() {
+            toggleMenu() {
                 const menu = document.getElementById("navbarDefault");
                 menu.classList.toggle("hidden");
             },
             closeMenu() {
-                const menu = document.getElementById("navabarDefault");
+                const menu = document.getElementById("navbarDefault");
                 menu.classList.add("hidden");
             },
             toggleCart() {
@@ -52,3 +52,5 @@
         }
     };
 </script>
+
+

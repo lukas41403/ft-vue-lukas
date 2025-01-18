@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from '../views/HomeView.vue';
-import StlpoveMotivyView from '../views/StlpoveMotivyView.vue';
-import RetazeView from '@/views/RetazeView.vue';
+import StlpoveView from '../views/StlpoveMotivyView.vue';
+import RetazeView from '../views/RetazeView.vue';
 
 
 const router = createRouter({
@@ -15,7 +15,7 @@ const router = createRouter({
         {
             path: '/stlpove',
             name: 'stlpove',
-            component: StlpoveMotivyView
+            component: StlpoveView
 
         },
         {
