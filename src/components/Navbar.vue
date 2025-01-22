@@ -17,11 +17,15 @@
           </li>
           <li class="flex justify-center">
             <router-link to="/stlpove" @click="closeMenu"
-              class="nav-link block py-2 pl-3 pr-4 text-[16px] text-navlinks rounded md:border-0 md:p-0">Stĺpové osvetlenie</router-link>
+            class="nav-link block py-2 pl-3 pr-4 text-[16px] text-navlinks rounded md:border-0 md:p-0">Stĺpové osvetlenie</router-link>
           </li>
           <li class="flex justify-center">
             <router-link to="/retaze" @click="closeMenu"
-              class="nav-link block py-2 pl-3 pr-4 text-[16px] text-navlinks rounded md:border-0 md:p-0">Svetelné reťaze</router-link>
+            class="nav-link block py-2 pl-3 pr-4 text-[16px] text-navlinks rounded md:border-0 md:p-0">Svetelné reťaze</router-link>
+          </li>
+          <li class="flex justify-center">
+            <router-link to="/kontakty" @click="closeMenu"
+              class="nav-link block py-2 pl-3 pr-4 text-[16px] text-navlinks rounded md:border-0 md:p-0">Napíšte nám</router-link>
           </li>
           <li class="flex justify-center">
             <button @click="toggleCart(); closeMenu();"

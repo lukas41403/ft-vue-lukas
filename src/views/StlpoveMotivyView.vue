@@ -12,7 +12,6 @@
                     class="product-item flex flex-col sm:w-1/2 md:w-1/4 lg:w-1/4 p-8">   
                     <div class="image-container rounded-lg overflow-hidden">
                         <img class="product-image" :src="'/product_images/' + item.picture_2" :alt="item.name">
-                        <!-- <img class="product-image" :src="'/product_images/stlpovky/' + item.picture_2" :alt="item.name"> -->
                     </div>
                     <div class="flex justify-between items-center mt-2">
                         <h3 class="text-lg font-semibold">{{ item.name }}</h3>

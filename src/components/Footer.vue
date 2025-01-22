@@ -38,7 +38,7 @@
             <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">TEL:</h2>
             <nav class="list-none mb-10">
               <li>
-                <a href="tel:+421948089291" class="text-gray-600 hover:text-gray-800">+421 655 006</a>
+                <a href="tel:+421948089291" class="text-gray-600 hover:text-gray-800">+421 948 655 006</a>
               </li>
   
             </nav>
@@ -47,7 +47,7 @@
             <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">EMAIL</h2>
             <nav class="list-none mb-10">
               <li>
-                <a href="mailto:efitness@gmail.com" class="text-gray-600 hover:text-gray-800">uniled@uniled.sk</a>
+                <a href="mailto:efitness@gmail.com" class="text-gray-600 hover:text-gray-800">obchod@uniled.sk</a>
               </li>
             </nav>
           </div>

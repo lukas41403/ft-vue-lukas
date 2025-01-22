@@ -2,10 +2,11 @@ import { createRouter, createWebHistory } from "vue-router";
 import HomeView from '../views/HomeView.vue';
 import StlpoveView from '../views/StlpoveMotivyView.vue';
 import RetazeView from '../views/RetazeView.vue';
+import Kontakty from '../components/Kontakty.vue';
 
 
 const router = createRouter({
-    history: createWebHistory(import.meta.env.BASE_URL),
+    history: createWebHistory(),
     routes: [
         {
             path: '/',
@@ -22,7 +23,12 @@ const router = createRouter({
             path: '/retaze',
             name: 'LED retaze',
             component: RetazeView
-        }
+        },
+        {
+            path: '/kontakty',
+            name: 'Kontakty',
+            component: Kontakty
+        },
     ]
 })
 
